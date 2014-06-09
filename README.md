@@ -1,3 +1,10 @@
+Ushahidi Toolkit
+
+This site is the nascent toolkit for the Ushahidi v.3 release in 2014. It is being built based on previous work plus lessons learned over the past several years of deployments.
+
+
+About Flex, the theme for this site
+
 Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
 
 The theme is based on the website [The Development](http://thedevelopment.co).
