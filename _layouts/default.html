@@ -27,9 +27,9 @@
           <span class="tagline">v.3 Toolkit Draft</span>
         </div>
         <div class="posts">
-	      {% assign totalpages = site.pages | size %}
+	      {% assign totalpages = site.pages | size+10 %}
           <ul class="posts-list">
-			{% for weight in (1..totalpages+1) %}{% for p in site.pages %}{% if p.weight == weight %}
+			{% for weight in (1..totalpages) %}{% for p in site.pages %}{% if p.weight == weight %}
               <li class="post-link">
                 <a class="post-title {% if p.url == page.url %} active {% endif %}" href="{{ site.baseurl }}{{ p.url }}">
                   {{ p.title }}
