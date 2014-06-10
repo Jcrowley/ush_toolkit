@@ -1,5 +1,9 @@
-flex
-====
+Ushahidi Toolkit
+
+This site is the nascent toolkit for the Ushahidi v.3 release in 2014. It is being built based on previous work plus lessons learned over the past several years of deployments.
+
+
+About Flex, the theme for this site
 
 Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
 
@@ -8,7 +12,6 @@ The theme is based on the website [The Development](http://thedevelopment.co).
 View a demo website [here](http://the-development.github.io/flex/).
 
 Installation
-===
 To use this theme, you would do so like any other Jekyll setup:
 
 1. Install Jekyll: `gem install jekyll`
@@ -17,7 +20,6 @@ To use this theme, you would do so like any other Jekyll setup:
 4. Celebrate and dance.
 
 Contributions
-===
 
 In general, there are no strict rules for contributing, only that your code is clean and well structured.
 
@@ -31,7 +33,6 @@ Feature requests:
 If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
 
 License
-===
 
 Flex is licensed under the MIT license:
 
@@ -57,3 +58,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
