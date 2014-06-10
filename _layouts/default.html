@@ -31,7 +31,7 @@
           <ul class="posts-list">
 			{% for weight in (1..totalpages) %}{% for p in site.pages %}{% if p.weight == weight %}
               <li class="post-link">
-                <a class="post-title {% if p.url == page.url %} active {% endif %}" href="{{ p.url }}">
+                <a class="post-title {% if p.url == page.url %} active {% endif %}" href="{{ site.baseurl }}{{ p.url }}">
                   {{ p.title }}
                 </a>
               </li>{% endif %}{% endfor %}{% endfor %}
